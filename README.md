@@ -108,7 +108,7 @@ npm install
 Create a `.env` file in the root directory (or update the existing one):
 ```env
 # Backend API Base URL
-VITE_API_BASE_URL=http://localhost:8000
+VITE_API_BASE_URL=http://localhost:8900
 ```
 
 ### 3. Running Locally
@@ -116,7 +116,7 @@ Start the Vite local development server:
 ```bash
 npm run dev
 ```
-Open your browser at `http://localhost:5173`.
+Open your browser at `http://localhost:6000`.
 
 ### 4. Build for Production
 Type-check and build the optimized production assets:
