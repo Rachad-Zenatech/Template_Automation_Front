@@ -61,7 +61,6 @@ export interface McpToolPermission {
 export interface PermissionsData {
   user: User;
   roles: Role[];
-  workflow_roles?: string[];
   navigation_permissions: Record<string, string[]>;
   mcp_tool_permissions: string[];
 }

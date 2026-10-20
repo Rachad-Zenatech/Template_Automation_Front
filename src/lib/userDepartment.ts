@@ -8,14 +8,6 @@ const GENERIC_NON_DEPARTMENT_ROLES = new Set([
   "STANDARD USER",
   "PENDING_USER",
   "PENDING USER",
-  "REQUESTER",
-  "LOW_LEVEL_APPROVER",
-  "HIGH_LEVEL_APPROVER",
-  "STANDARD_APPROVER",
-  "STANDARD APPROVER",
-  "SENIOR_APPROVER",
-  "SENIOR APPROVER",
-  "APPROVER",
   "USER",
 ]);
 
@@ -50,7 +42,7 @@ export function resolveUserDepartment(
 
   // Super admins bypass normal role-based access and typically have no real
   // department synced yet — show that instead of guessing from whatever
-  // baseline role (e.g. REQUESTER) they happen to be auto-assigned.
+  // baseline role (e.g. USER) they happen to be auto-assigned.
   if (user.is_super_admin) {
     return "Super Admin";
   }
