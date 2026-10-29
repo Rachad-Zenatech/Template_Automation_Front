@@ -4,10 +4,10 @@ import { AuthProvider } from "./lib/AuthContext";
 import { ShieldAlert, ArrowLeft } from "lucide-react";
 import { Button } from "./components/ui/button";
 
-import ProtectedRoute from "./components/ProtectedRoute";
+import ProtectedRoute from "./components/common/ProtectedRoute";
 
 const AppShell = lazy(() => import("./components/AppShell/AppShell"));
-const Dashboard = lazy(() => import("./pages/Dashboard"));
+const Dashboard = lazy(() => import("./pages/Dashboard/Dashboard"));
 const Users = lazy(() => import("./pages/Configurations/Users"));
 const Roles = lazy(() => import("./pages/Configurations/Roles"));
 const UserRoleAssignment = lazy(() => import("./pages/Configurations/UserRoleAssignment"));
@@ -15,10 +15,10 @@ const RoleGroupPermissions = lazy(() => import("./pages/Configurations/RoleGroup
 const RoleApiPermissions = lazy(() => import("./pages/Configurations/RoleApiPermissions"));
 const RoleMcpToolPermissions = lazy(() => import("./pages/Configurations/RoleMcpToolPermissions"));
 
-const AuditLog = lazy(() => import("./pages/Log/AuditLog"));
+const AuditLog = lazy(() => import("./pages/Logs/AuditLog"));
 const SystemLogsPage = lazy(() => import("./pages/Logs/SystemLogsPage"));
-const Login = lazy(() => import("./pages/Login"));
-const PendingAccess = lazy(() => import("./pages/PendingAccess"));
+const Login = lazy(() => import("./pages/Auth/Login"));
+const PendingAccess = lazy(() => import("./pages/Auth/PendingAccess"));
 
 function NotFoundAlert() {
   return (
