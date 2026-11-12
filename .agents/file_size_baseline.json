@@ -1,0 +1,21 @@
+{
+  "limit": 500,
+  "files": {
+    "src/components/AppShell/TopBar.tsx": {
+      "max_lines": 538,
+      "reason": "Over the limit when the check was introduced; split it when you next work on it."
+    },
+    "src/pages/Configurations/Roles.tsx": {
+      "max_lines": 798,
+      "reason": "Over the limit when the check was introduced; split it when you next work on it."
+    },
+    "src/pages/Configurations/Users.tsx": {
+      "max_lines": 691,
+      "reason": "Over the limit when the check was introduced; split it when you next work on it."
+    },
+    "src/pages/Logs/SystemLogsPage.tsx": {
+      "max_lines": 1064,
+      "reason": "Over the limit when the check was introduced; split it when you next work on it."
+    }
+  }
+}
