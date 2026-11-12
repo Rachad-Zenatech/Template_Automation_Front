@@ -1,5 +1,9 @@
 {
   "limit": 500,
+  "block_limits": {
+    "jsx_return": 80,
+    "py_function": 120
+  },
   "files": {
     "src/components/AppShell/TopBar.tsx": {
       "max_lines": 538,
@@ -16,6 +20,76 @@
     "src/pages/Logs/SystemLogsPage.tsx": {
       "max_lines": 1064,
       "reason": "Over the limit when the check was introduced; split it when you next work on it."
+    }
+  },
+  "blocks": {
+    "src/App.tsx#App": {
+      "max_lines": 175,
+      "kind": "jsx_return"
+    },
+    "src/components/AppShell/ConnectionStatusLight.tsx#ConnectionStatusLight": {
+      "max_lines": 93,
+      "kind": "jsx_return"
+    },
+    "src/components/AppShell/NotificationDropdown.tsx#NotificationDropdownContent": {
+      "max_lines": 112,
+      "kind": "jsx_return"
+    },
+    "src/components/AppShell/Sidebar.tsx#Icon": {
+      "max_lines": 91,
+      "kind": "jsx_return"
+    },
+    "src/components/AppShell/Sidebar.tsx#Sidebar": {
+      "max_lines": 213,
+      "kind": "jsx_return"
+    },
+    "src/components/AppShell/TopBar.tsx#TopBar": {
+      "max_lines": 273,
+      "kind": "jsx_return"
+    },
+    "src/components/ui/calendar.tsx#Calendar": {
+      "max_lines": 151,
+      "kind": "jsx_return"
+    },
+    "src/components/ui/FloatingVerticalFilter.tsx#FloatingVerticalFilter": {
+      "max_lines": 121,
+      "kind": "jsx_return"
+    },
+    "src/pages/Configurations/RoleApiPermissions.tsx#RoleApiPermissions": {
+      "max_lines": 173,
+      "kind": "jsx_return"
+    },
+    "src/pages/Configurations/RoleGroupPermissions.tsx#RoleGroupPermissions": {
+      "max_lines": 323,
+      "kind": "jsx_return"
+    },
+    "src/pages/Configurations/RoleMcpToolPermissions.tsx#RoleMcpToolPermissions": {
+      "max_lines": 158,
+      "kind": "jsx_return"
+    },
+    "src/pages/Configurations/Roles.tsx#Roles": {
+      "max_lines": 354,
+      "kind": "jsx_return"
+    },
+    "src/pages/Configurations/UserRoleAssignment.tsx#UserRoleAssignment": {
+      "max_lines": 127,
+      "kind": "jsx_return"
+    },
+    "src/pages/Configurations/Users.tsx#Users": {
+      "max_lines": 273,
+      "kind": "jsx_return"
+    },
+    "src/pages/Dashboard/Dashboard.tsx#Dashboard": {
+      "max_lines": 199,
+      "kind": "jsx_return"
+    },
+    "src/pages/Logs/AuditLog.tsx#AuditLog": {
+      "max_lines": 205,
+      "kind": "jsx_return"
+    },
+    "src/pages/Logs/SystemLogsPage.tsx#SystemLogsPage": {
+      "max_lines": 709,
+      "kind": "jsx_return"
     }
   }
 }
