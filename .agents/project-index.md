@@ -70,7 +70,7 @@ For function and route definitions with their line numbers, grep `.agents/code-m
 - src/pages/Logs/AuditLog.tsx (482 lines) - audit log (pages  logs)
 - src/pages/Logs/SystemLogsPage.tsx (1065 lines) - system logs page (pages  logs)
 - src/services/api.ts (6 lines) - api (services)
-- src/services/apiClient.ts (329 lines) - api client (services)
+- src/services/apiClient.ts (332 lines) - api client (services)
 - src/services/errorReporting.ts (75 lines) - error reporting (services)
 - src/services/helper.ts (17 lines) - helper (services)
 - src/services/queryKeys.ts (25 lines) - Centralized React Query keys for consistent invalidation and caching.
