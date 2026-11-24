@@ -13,12 +13,13 @@ to find the right file.
 | .agents/code-map/src__components__AppShell.md | 8 | 2 KB |
 | .agents/code-map/src__components__common.md | 3 | 1 KB |
 | .agents/code-map/src__components__ui.md | 35 | 8 KB |
-| .agents/code-map/src__hooks.md | 2 | 1 KB |
+| .agents/code-map/src__hooks.md | 3 | 1 KB |
 | .agents/code-map/src__lib.md | 3 | 1 KB |
 | .agents/code-map/src__pages__Auth.md | 2 | 1 KB |
-| .agents/code-map/src__pages__Configurations.md | 6 | 3 KB |
+| .agents/code-map/src__pages__Configurations.md | 7 | 3 KB |
+| .agents/code-map/src__pages__Configurations__aiStatus.md | 6 | 2 KB |
 | .agents/code-map/src__pages__Dashboard.md | 1 | 1 KB |
 | .agents/code-map/src__pages__Logs.md | 2 | 1 KB |
 | .agents/code-map/src__services.md | 5 | 1 KB |
-| .agents/code-map/src__types.md | 4 | 1 KB |
+| .agents/code-map/src__types.md | 5 | 2 KB |
 | .agents/code-map/src__utils.md | 2 | 1 KB |

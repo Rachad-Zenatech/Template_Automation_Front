@@ -4,8 +4,8 @@
 
 Each symbol shows its start line (`L<n>`); read from there to the next symbol's line, not the whole file.
 
-## src/App.tsx (220 lines) - app
-- `NotFoundAlert` (function) L23
-- `App` (function) L41
+## src/App.tsx (222 lines) - app
+- `NotFoundAlert` (function) L24
+- `App` (function) L42
 
 ## src/main.tsx (51 lines) - Create a client

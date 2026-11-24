@@ -4,6 +4,9 @@
 
 Each symbol shows its start line (`L<n>`); read from there to the next symbol's line, not the whole file.
 
+## src/hooks/useAiOverview.ts (16 lines) - use ai overview (hooks)
+- `useAiOverview` (export function) L5
+
 ## src/hooks/useHeartbeat.ts (45 lines) - Track user activity
 - `useHeartbeat` (export function) L4
 

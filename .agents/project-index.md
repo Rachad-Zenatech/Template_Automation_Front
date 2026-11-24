@@ -5,11 +5,11 @@
 Scan this index first to locate the right file and description without loading symbol trees or line numbers.
 For function and route definitions with their line numbers, grep `.agents/code-map/` (listed in `.agents/code-map.md`).
 
-- src/App.tsx (220 lines) - app
+- src/App.tsx (222 lines) - app
 - src/components/AppShell/AppShell.tsx (51 lines) - Set initial state
 - src/components/AppShell/Breadcrumbs.tsx (138 lines) - breadcrumbs (components  app shell)
 - src/components/AppShell/ConnectionStatusLight.tsx (263 lines) - connection status light (components  app shell)
-- src/components/AppShell/Navigation.tsx (54 lines) - navigation (components  app shell)
+- src/components/AppShell/Navigation.tsx (55 lines) - navigation (components  app shell)
 - src/components/AppShell/NotificationDropdown.tsx (180 lines) - notification dropdown (components  app shell)
 - src/components/AppShell/Sidebar.tsx (296 lines) - sidebar (components  app shell)
 - src/components/AppShell/ThemeSwitch.tsx (41 lines) - theme switch (components  app shell)
@@ -52,6 +52,7 @@ For function and route definitions with their line numbers, grep `.agents/code-m
 - src/components/ui/toggle-group.tsx (90 lines) - toggle group (components ui)
 - src/components/ui/toggle.tsx (46 lines) - toggle (components ui)
 - src/components/ui/tooltip.tsx (56 lines) - tooltip (components ui)
+- src/hooks/useAiOverview.ts (16 lines) - use ai overview (hooks)
 - src/hooks/useHeartbeat.ts (45 lines) - Track user activity
 - src/hooks/useNotifications.ts (147 lines) - use notifications (hooks)
 - src/lib/AuthContext.tsx (204 lines) - auth context (lib)
@@ -60,12 +61,19 @@ For function and route definitions with their line numbers, grep `.agents/code-m
 - src/main.tsx (51 lines) - Create a client
 - src/pages/Auth/Login.tsx (128 lines) - login (pages  auth)
 - src/pages/Auth/PendingAccess.tsx (62 lines) - If user somehow gets another role, maybe redirect them to home
+- src/pages/Configurations/AiStatusPage.tsx (86 lines) - ai status page (pages  configurations)
 - src/pages/Configurations/RoleApiPermissions.tsx (411 lines) - We order actions so they appear logically: CREATE, READ (VIEW), UPDATE, DELETE
 - src/pages/Configurations/RoleGroupPermissions.tsx (488 lines) - role group permissions (pages  configurations)
 - src/pages/Configurations/RoleMcpToolPermissions.tsx (306 lines) - Left panel search
 - src/pages/Configurations/Roles.tsx (799 lines) - roles (pages  configurations)
 - src/pages/Configurations/UserRoleAssignment.tsx (387 lines) - user role assignment (pages  configurations)
 - src/pages/Configurations/Users.tsx (692 lines) - users (pages  configurations)
+- src/pages/Configurations/aiStatus/AiCoresGrid.tsx (78 lines) - ai cores grid (pages  configurations ai status)
+- src/pages/Configurations/aiStatus/AiErrorsDialog.tsx (110 lines) - ai errors dialog (pages  configurations ai status)
+- src/pages/Configurations/aiStatus/AiFeatureMatrix.tsx (203 lines) - ai feature matrix (pages  configurations ai status)
+- src/pages/Configurations/aiStatus/AiPipelineTelemetry.tsx (179 lines) - ai pipeline telemetry (pages  configurations ai status)
+- src/pages/Configurations/aiStatus/AiSummaryCards.tsx (140 lines) - ai summary cards (pages  configurations ai status)
+- src/pages/Configurations/aiStatus/statusStyles.ts (31 lines) - status styles (pages  configurations ai status)
 - src/pages/Dashboard/Dashboard.tsx (297 lines) - dashboard (pages  dashboard)
 - src/pages/Logs/AuditLog.tsx (482 lines) - audit log (pages  logs)
 - src/pages/Logs/SystemLogsPage.tsx (1065 lines) - system logs page (pages  logs)
@@ -75,6 +83,7 @@ For function and route definitions with their line numbers, grep `.agents/code-m
 - src/services/helper.ts (17 lines) - helper (services)
 - src/services/queryKeys.ts (25 lines) - Centralized React Query keys for consistent invalidation and caching.
 - src/types/aiAssistant.ts (5 lines) - ai assistant (types)
+- src/types/aiOverview.ts (152 lines) - ai overview (types)
 - src/types/auth.ts (97 lines) - auth (types)
 - src/types/notifications.ts (16 lines) - notifications (types)
 - src/types/search.ts (8 lines) - search (types)

@@ -17,7 +17,7 @@ Each symbol shows its start line (`L<n>`); read from there to the next symbol's 
 - `IntegrationStatusResponse` (export interface) L34
 - `ConnectionStatusLight` (export function) L39
 
-## src/components/AppShell/Navigation.tsx (54 lines) - navigation (components  app shell)
+## src/components/AppShell/Navigation.tsx (55 lines) - navigation (components  app shell)
 - `NavigationSubItem` (export interface) L8
 - `NavigationItem` (export interface) L14
 - `navigation` (export const) L23
